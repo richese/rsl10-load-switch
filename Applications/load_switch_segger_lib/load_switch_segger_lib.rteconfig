@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+  <device Dclock="48000000" Dcore="Cortex-M3" DcoreVersion="r2p1" Dendian="Little-endian" Dfamily="RSL10 Series" Dfpu="NO_FPU" Dmpu="NO_MPU" Dname="RSL10" Dvendor="ONSemiconductor:141" Pname="">
+    <url>http:/www.onsemi.com</url>
+    <package info="ON Semiconductor RSL10 Device Family Pack" name="RSL10" url="www.onsemi.com/" vendor="ONSemiconductor" version="3.4.2-4"/>
+  </device>
+  <toolchain Tcompiler="GCC" Toutput="exe"/>
+  <components/>
+  <apis/>
+  <packages useAllLatestPacks="0">
+    <package name="RSL10" url="www.onsemi.com/" vendor="ONSemiconductor" version="3.4.2-4"/>
+  </packages>
+</configuration>

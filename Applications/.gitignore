@@ -1,0 +1,7 @@
+# Ignore build files from all application projects
+*/Debug
+*/Release
+
+# Ignore local Eclipse settings
+*/.settings
+

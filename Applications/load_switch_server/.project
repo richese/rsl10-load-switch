@@ -3,6 +3,7 @@
 	<name>load_switch_server</name>
 	<comment></comment>
 	<projects>
+		<project>load_switch_segger_lib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -25,26 +26,6 @@
 		<nature>com.arm.cmsis.pack.project.RteNature</nature>
 	</natures>
 	<linkedResources>
-		<link>
-			<name>RTE/Utility/SEGGER_RTT.c</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/RSL10/3.4.2-4/source/firmware/rtt/SEGGER_RTT.c</locationURI>
-		</link>
-		<link>
-			<name>RTE/Utility/SEGGER_RTT_ASM_ARMv7M.S</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/RSL10/3.4.2-4/source/firmware/rtt/SEGGER_RTT_ASM_ARMv7M.S</locationURI>
-		</link>
-		<link>
-			<name>RTE/Utility/SEGGER_RTT_printf.c</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/RSL10/3.4.2-4/source/firmware/rtt/SEGGER_RTT_printf.c</locationURI>
-		</link>
-		<link>
-			<name>RTE/Utility/printf.c</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/RSL10/3.4.2-4/source/firmware/printf/printf.c</locationURI>
-		</link>
 		<link>
 			<name>RTE/Device/RSL10/libbass.a</name>
 			<type>1</type>

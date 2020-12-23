@@ -17,7 +17,7 @@
 #include <ble_gap.h>
 #include <ble_gatt.h>
 #include <msg_handler.h>
-#include <printf.h>
+#include <app_printf.h>
 #include <app_customss.h>
 
 /* Global variable definition */

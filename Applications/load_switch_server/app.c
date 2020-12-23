@@ -22,7 +22,6 @@
  * ------------------------------------------------------------------------- */
 
 #include <app.h>
-#include <printf.h>
 
 int main(void)
 {
@@ -31,7 +30,7 @@ int main(void)
 
     /* Debug/trace initialization. In order to enable UART or RTT trace,
      * configure the 'OUTPUT_INTERFACE' macro in printf.h */
-    printf_init();
+    APP_PRINTF_INIT();
     PRINTF("\n\r__ble_peripheral_server_bond has started!\r\n");
 
     /* Configure application-specific advertising data and scan response  data*/

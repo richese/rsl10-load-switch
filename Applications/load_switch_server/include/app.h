@@ -42,9 +42,11 @@ extern "C"
 #include <ble_gatt.h>
 #include <msg_handler.h>
 #include <ble_bass.h>
+
 #include "app_customss.h"
 #include "app_bass.h"
-#include <printf.h>
+#include "app_assert.h"
+#include "app_printf.h"
 
 /* ----------------------------------------------------------------------------
  * Defines
